@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.hn.member">
+	
+	<!-- 
+	<insert id="fileupload" parameterType="memberDto">
+		INSERT INTO PROFILE VALUES(PROFILE_SEQ.NEXTVAL,
+		   #{oname},#{sname},#{fsize})
+	</insert>
+	
+	<select id="filelist" resultType="memberDto">
+		SELECT SEQ,ONAME,SNAME,FSIZE
+		FROM PROFILE ORDER BY SEQ DESC
+	</select>
+	
+	<select id="getfile" parameterType="int" resultType="memberDto">
+		SELECT SEQ,ONAME,SNAME,FSIZE
+		FROM PROFILE WHERE SEQ=#{seq}
+	</select>
+	-->
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
